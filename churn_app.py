@@ -16,6 +16,8 @@ dataset = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
 # título
 st.title("Data App - Churn prediction")
 
+st.markdown('Churn designates the percentage of customers the company has lost over a given time period')
+
 # subtítulo
 st.markdown("This is a Data App used to display the Machine Learning solution for the customer churn prediction problem. ")
 
